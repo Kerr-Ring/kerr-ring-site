@@ -8,3 +8,9 @@ To Do List:
 - [ ] Decide on theme
 - [ ] Bios
 - [ ] Navigation
+
+## To Use
+
+- [Install Ruby](https://rubyinstaller.org/downloads/)
+- `gem install jekyll bundler`
+- `bundle exec jekyll serve`
