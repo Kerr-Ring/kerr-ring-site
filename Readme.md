@@ -11,6 +11,7 @@ To Do List:
 
 ## To Use
 
-- [Install Ruby](https://rubyinstaller.org/downloads/)
-- `gem install jekyll bundler`
+- [Install Ruby Version 2.6.5](https://rubyinstaller.org/downloads/)
+- `gem install bundler`
+- `bundle install`
 - `bundle exec jekyll serve`
