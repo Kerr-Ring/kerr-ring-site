@@ -13,26 +13,84 @@
 # https://learnxinyminutes.com/docs/yaml/
 #
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
 title: Kerr Ring
 email: kerr.ring.band@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Kerr Ring is an American 6-piece gothic metal band telling dark stories of death and misfortune.
 baseurl: "/kerr-ring-site" # the subpath of your site, e.g. /blog
-url: "https://kerr-ring.github.io/kerr-ring-site/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://kerr-ring.com/" 
+#url: "http://127.0.0.1:4000"
+facebook_username: "kerr.ring"
+#twitter_username: ""
+instagram_username: "kerr.ring"
+soundcloud_username:  "kerr-ring"
+#bandcamp_username: "kerrring"
+#flickr_username: ""
+#discus_shortname: ""
+share: true
+
+# Owner/author information
+owner:
+  name:   Kerr Ring
+  avatar: avatar.png
+  favicon: favicon.ico
+  info: official kerr ring band website
+
+# Settings for comments helper
+# Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
+# Set 'provider' to false to turn commenting off globally.
+#Set 'provider: false' to disable comments globally.
+# Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
+#
+# comments :
+#   provider : disqus
+#   disqus :
+#     short_name : ""
+
+# Internal nav
+nav:
+  - MUSIC: "/music/"  
+  - VISUALS: "/gallery/"
+  - NEWS: "/journal/"
+  - ABOUT: "/about/"
+
+# All translation keys
+translations:
+ # 404.html
+  permalink: "/404.html"
+
+# Server
+destination:      	 ./_site
+port:             	 4000
+
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+paginate_path: "/posts/page:num/"
+permalink: "/posts/:title/"
+categories_path: "/posts/category/"
+tags_path: "/posts/tag/"
+gems: 
+ - jekyll-paginate
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+#logo 492 106
+# SiteMap
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/writing/"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,0 +1,21 @@
+{
+  "name": "kerr.ring.site",
+  "description": "Kerr Ring official website",
+  "main": "index.html",
+  "moduleType": [],
+  "authors": [
+    "Anna Prigkipaki",
+    "Olga Milovanova",
+    "Andrew Hall"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
