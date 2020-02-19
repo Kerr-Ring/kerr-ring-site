@@ -18,7 +18,7 @@ title: Kerr Ring
 email: kerr.ring.band@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Kerr Ring is an American 6-piece gothic metal band telling dark stories of death and misfortune.
-baseurl: "/kerr-ring-site" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kerr-ring.com/" 
 #url: "http://127.0.0.1:4000"
 facebook_username: "kerr.ring"
