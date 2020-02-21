@@ -52,6 +52,7 @@ owner:
 nav:
   - MUSIC: "/music/"  
   - VISUALS: "/gallery/"
+  - SHOWS: "/shows/"  
   - NEWS: "/journal/"
   - ABOUT: "/about/"
 
