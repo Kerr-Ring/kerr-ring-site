@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Kerr Ring is an American 6-piece gothic metal band telling dark stories of death and misfortune.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kerr-ring.com/" 
-#url: "http://127.0.0.1:4000"
+#url: "http://127.0.0.1:4000/"
 facebook_username: "kerr.ring"
 #twitter_username: ""
 instagram_username: "kerr.ring"
@@ -28,14 +28,14 @@ soundcloud_username:  "kerr-ring"
 #bandcamp_username: "kerrring"
 #flickr_username: ""
 #discus_shortname: ""
-share: true
+share: false
 
 # Owner/author information
 owner:
   name:   Kerr Ring
   avatar: avatar.png
   favicon: favicon.ico
-  info: official kerr ring band website
+  info: official band website
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -51,7 +51,7 @@ owner:
 # Internal nav
 nav:
   - MUSIC: "/music/"  
-  - VISUALS: "/gallery/"
+  - MEDIA: "/gallery/"
   - SHOWS: "/shows/"  
   - NEWS: "/journal/"
   - ABOUT: "/about/"
@@ -71,10 +71,10 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
-paginate_path: "/posts/page:num/"
-permalink: "/posts/:title/"
-categories_path: "/posts/category/"
-tags_path: "/posts/tag/"
+paginate_path: "/journal/page:num/"
+permalink: "/journal/:title/"
+categories_path: "/journal/category/"
+tags_path: "/journal/tag/"
 gems: 
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
