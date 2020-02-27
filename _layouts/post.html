@@ -23,7 +23,7 @@ layout: default
     <div class="container">
         <div class="row">
                             <div class="post-heading">
-                    <h1 style="color: #acd578;">{{ page.title }}</h1>
+                    <h1 style="color: #ccd4e6;">{{ page.title }}</h1>
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
@@ -94,6 +94,8 @@ layout: default
 <hr class="medium">
 
             <div class="tags-wrap">
+
+{% if post.tags.size > 0 %}
    <div class="tags">
 
   <div class="section-heading group" style="color: #fff; text-align: center; margin-top: 10px;">
@@ -134,7 +136,9 @@ layout: default
 </div>
 
 <hr class="medium">
+{% endif %}
 
+{% if post.categories.size > 0 %}
 <div class="categories">
 
   <div class="section-heading group" style="color: #fff; text-align: center; margin-top: 10px;">
@@ -176,6 +180,7 @@ layout: default
 </div>
 
 <hr class="medium">
+{% endif %}
 
 <br>
 <br>
