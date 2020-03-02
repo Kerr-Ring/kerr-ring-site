@@ -4,11 +4,10 @@ We can use GitHub pages for now, and publish static content.
 
 To Do List:
 
-- [X] Buy domain
-- [X] Decide on theme
-- [ ] Bios
-- [ ] Navigation
-
+- [ ] Add bandcamp to socials
+- [ ] Add music to the home page
+- [ ] Add past members somewhere in bio
+ 
 ## To Use
 
 - [Install Ruby Version 2.6.5](https://rubyinstaller.org/downloads/)
