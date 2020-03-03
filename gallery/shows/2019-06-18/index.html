@@ -1,0 +1,133 @@
+---
+layout: page
+title: "Lucky Liquor (Seattle, WA), 2019"
+description: "with Three Sixes, Asscomb and The Gaping Lotus Experience"
+active: gallery
+header-img: "img/gallery-bg.jpg"
+album-title: "Debut show at Lucky Liquor (Seattle, WA)"
+
+images:
+- image_path: /gallery/shows/2019-06-18/642A4636-1.jpg
+  caption: 
+  copyright: © Jeff Evans Photography
+- image_path: /gallery/shows/2019-06-18/642A4768-1.jpg
+  caption: 
+  copyright: © Jeff Evans Photography
+- image_path: /gallery/shows/2019-06-18/642A4841-1.jpg
+  caption: 
+  copyright: © Jeff Evans Photography
+- image_path: /gallery/shows/2019-06-18/642A4612-1.jpg
+  caption: Lachlan Ford
+  copyright: © Jeff Evans Photography
+- image_path: /gallery/shows/2019-06-18/642A4614-1.jpg
+  caption: Andrew "Amun" Hall
+  copyright: © Jeff Evans Photography
+- image_path: /gallery/shows/2019-06-18/642A4816-1.jpg
+  caption: Olga Nuit
+  copyright: © Jeff Evans Photography
+- image_path: /gallery/shows/2019-06-18/642A4665-1.jpg
+  caption: Todd Bello
+  copyright: © Jeff Evans Photography
+- image_path: /gallery/shows/2019-06-18/642A4820-1.jpg
+  caption: Laura Gonzalez
+  copyright: © Jeff Evans Photography
+- image_path: /gallery/shows/2019-06-18/642A4867-1.jpg
+  caption: Kerr Ring
+  copyright: © Jeff Evans Photography
+- image_path: /gallery/shows/2019-06-18/Band1-1.jpg
+  caption: 
+  copyright: Kerr Ring
+- image_path: /gallery/shows/2019-06-18/Band2-1.jpg
+  caption: 
+  copyright: Kerr Ring
+- image_path: /gallery/shows/2019-06-18/GhostOfAndrew.jpg
+  caption: 
+  copyright: Kerr Ring 
+- image_path: /gallery/shows/2019-06-18/Jettatura-1.jpg
+  caption: Jettatura!
+  copyright: Kerr Ring
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup"  title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary" id="{{ image.caption }}">
+							<h3>{{image.caption}}</h3>
+							<p>{{image.copyright}}</p>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+  <br>
+  <h6><p>Photography by: <a href="https://www.jeffevansphotography.com/">Jeff Evans</a></p></h6>
+<!-- jQuery -->    
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+         type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+image: {
+      titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="{{ site.baseurl }}/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+
+    
+</body></html>
