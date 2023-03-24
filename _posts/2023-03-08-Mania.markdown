@@ -1,0 +1,48 @@
+---
+layout: "post"
+title: "Debut EP 'Mania'"
+subtitle: "A collection of hot songs"
+active: "journal"
+image:
+  feature: "20230308.jpg"
+date: "2023-03-08"
+header-img: "img/postcover/20230308bg.jpg"
+comments: "true"
+---
+
+## Recording our setlist from 2019
+
+If you've been around to see us live you probably remember these songs that we've been playing live. If you don't remember, live versions are available on our YouTube channel:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UITXwEWrKkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+We wanted to record our full set at first. We already tested how to record most instruments at home with Trail of Crumbs, but this time we wanted to capture excellent skills of our drummer Drucifer. So at the end of 2019 we booked a day at a nice local [Witch Ape Studio](https://www.taddoyle.com/). We had  enough time to track 3 songs. A huge thanks to Tad (Thomas Andrew Doyle) for kind and warm welcome and support!  
+
+The setlist for 3/25 show that was cancelled right as the pandemic had it's first stop in Seatlle included: 
+
+| Working title | Status    | Real title   | Comments |
+|------ | --------- | -----| --- |
+|La mer | Released  | L'Homme et la mer on Mania | Also translated into English and released as The man and the sea |
+| Soulmoonstone | New song! | -
+| Autumn | Released | on Mania
+| Trail of crumbs | Released | Single
+| Nymphetamine Fix | Released | - | Olga released 2 covers outside of Kerr Ring 
+| Jettatura | - | -
+| Hotbird | Released | Fiery-bird on Mania
+| Still Alive | Released | Single | Released as an acoustic version, but we wrote a metal cover too! |
+
+## Production 
+So during 2020-2022 the band couldn't find a safe way to record the rest and decided to release everything that was recorded so far, and  invite session musicians to fill in the gaps. Special thanks to these wonderful musicians who helped release Mania:
+* Drums by Drucifer
+* Guitars by Andrew Hall, Aaron Schweikl and Dorian Falconeri
+* Bass by Aidan Burgeson, Todd Bello and Zach Hornung and Dorian Falconeri
+* Violin by Lachlan Ford and Peter Voronov
+* Vocals by Olga Nuit and Nayeli Abrego 
+* Engineering by Kile Odell, Dorian Falconeri, Jack Kosto and Nicholas Frohmader II 
+* Songwriting improvements and overall support by Laura Gonzalez
+
+There were a few setbacks during the production. We parted ways with our bassist Todd and couldn't find another person, and quaratine made things even harder. It took some time to find the people to record. 
+Dorian already finished mixing 4 out of 5 songs but while we were recording the last song, something came up and he couldn't work on it anymore. So we had to scramble and search for another engineer to mix. 
+With the full EP mixed, Olga made the decision to invest into hiring the best mastering engineer. But when we got the masters back, it turned out that the difference between mixes was so noticeable that the collection didn't sound good. So Fiery-bird had to be re-mixed and re-mastered with $$$ loss. Luckily the next try sounded perfectly fitting! 
+
+## What's next?
+
