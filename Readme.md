@@ -4,9 +4,10 @@ We can use GitHub pages for now, and publish static content.
 
 To Do List:
 
-- [ ] Add bandcamp to socials
 - [ ] Add music to the home page
-- [ ] Add past members somewhere in bio
+- [ ] Setup merch
+- [ ] Enforce https
+- [ ] Add photos from Witch Ape
  
 ## To Use
 
