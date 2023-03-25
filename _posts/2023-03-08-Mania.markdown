@@ -12,10 +12,10 @@ comments: "true"
 
 ## Recording our setlist from 2019
 
-If you've been around to see us live you probably remember these songs that we've been playing live. If you don't remember, live videos are still up on our YouTube channel:
+If you've been around to see us live you probably remember these songs. If you don't remember, live videos are still up on our YouTube channel:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UITXwEWrKkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-We wanted to record our full set at first. We already tested how to record most instruments at home with Trail of Crumbs, but this time we wanted to capture excellent skills of our drummer Drucifer. So at the end of 2019 we booked a day at a nice local [Witch Ape Studio](https://www.taddoyle.com/). We had  enough time to track 3 songs. A huge thanks to Tad (Thomas Andrew Doyle) for kind and warm welcome and support!  
+At first we wanted to record our full set. We already tested how to record most instruments at home with Trail of Crumbs, but this time we wanted to capture excellent skills of our drummer Drucifer. So at the end of 2019 we booked a day at a nice local [Witch Ape Studio](https://www.taddoyle.com/). We had  enough time to track 3 songs. A huge thanks to Tad (Thomas Andrew Doyle) for kind and warm welcome and support!  
 
 The setlist for 3/25 show that was cancelled right as the pandemic had it's first stop in Seatlle included: 
 
@@ -31,7 +31,7 @@ The setlist for 3/25 show that was cancelled right as the pandemic had it's firs
 | Still Alive | Released | Single | Released as an acoustic version, but we wrote a metal cover too! |
 
 ## Production 
-So during 2020-2022 the band couldn't find a safe way to record the rest and decided to release everything that was recorded so far, and  invite session musicians to fill in the gaps. Special thanks to these wonderful musicians who helped release Mania:
+So during 2020-2022 the band couldn't find a safe way to record remaining drums and decided to release everything that was recorded so far, and  invite session musicians to fill in the gaps. Special thanks to these wonderful musicians who helped release Mania:
 * Drums by Drucifer
 * Guitars by Andrew Hall, Aaron Schweikl and Dorian Falconeri
 * Bass by Aidan Burgeson, Todd Bello and Zach Hornung and Dorian Falconeri
@@ -45,7 +45,7 @@ Dorian already finished mixing 4 out of 5 songs but while we were recording the 
 With the full EP mixed, Olga made the decision to invest into hiring the best mastering engineer. But when we got the masters back, it turned out that the difference between mixes was so noticeable that the collection didn't sound good. So Fiery-bird had to be re-mixed and re-mastered with $$$ loss. Luckily the next try sounded perfectly fitting! 
 
 ## EP title
-Songs by Kerr Ring are written to fit "The seasons" and follow the  circle of human emotions. 
+Songs by Kerr Ring are written to fit "The seasons" and follow the range of human emotions from apathy to thrill.
 
 Trail of Crumbs and My Inspiration are from the season of "Phlegm". They are cold, calm and maybe even gave you goosebumps?
 
@@ -55,6 +55,120 @@ The album artwork was inspired by wildfires in previous years. When you think ab
 
 The painting was drawn by Olga and she talks about it in this video from 2020:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D-a5Kmx5LI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## About songs
+### L'homme et la mer or The man and the sea
+The French version is a [poem](https://fleursdumal.org/poem/113) by Charles Baudelaire from "Fleurs du mal".
+A young gothic lady wrote a song. It was the second song she ever wrote in her life. It sounded beautifully, resonating with her dark soul, but she was struggling to find words to accompany the sounds. It didn't sound very  sad, quite opposite: it was elevating but also contemplative. She kept looking into gothic classics and the theme of this poem was just right. People are strong and passionate like the sea, the rest you can read yourself.
+
+The English translation was done by Olga, adapted from an existing translation by Ruthven Todd, to fit music and rhythm closer to the French version. Resulting songs sound like twins, but each has its own character.
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1827526910/size=small/bgcol=333333/linkcol=e99708/track=2445428611/transparent=true/" seamless><a href="https://kerrring.bandcamp.com/album/mania">Mania by Kerr Ring</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1827526910/size=small/bgcol=333333/linkcol=e99708/track=3013485109/transparent=true/" seamless><a href="https://kerrring.bandcamp.com/album/mania">Mania by Kerr Ring</a></iframe>
+
+### Autumn
+Our favorite song to play! Insanely fun and angry. Olga translated it into English, but it sounded so soft compared to the original, that the final version forever remains in barking Russian sounds. 
+<p style="text-align: center;">
+---<br><em>
+The autumn air has warmed up today<br>
+All colors seem brighter than aeons ago<br>
+The molten ball is tracing a circle once more<br>
+And splattering metal all over the Earth<br>
+<br>
+And I am bathing like (a) naked newborn,<br>
+In its heat rays with trees all around me.<br>
+So isolated, forgotten, forlorn<br>
+Ensuring the memories of you are gone.<br></em>
+<br>
+Chorus<br><em>
+The autumn air has warmed up today<br>
+Ending an epoch of shivering gray<br>
+The molten ball is tracing a circle once more<br>
+Singeing the Earth with liquid metahl<br>
+<br>
+Tenderness with claws, joy is deception.<br>
+A bucket of unshed tears hides in the storm.<br>
+Everything was different, but now fallen leaves<br>
+Are covering splinters of unfulfilled dreams.<br>
+<br>
+Overcoming my fear to burn hands on the sky,<br>
+I'm reaching up there, where the sun's burning hot.<br>
+And now that I've failed in protecting myself,<br>
+There's no more to do, I just must die of love.<br></em>
+---<br>
+</p>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1827526910/size=small/bgcol=333333/linkcol=e99708/track=1985569602/transparent=true/" seamless><a href="https://kerrring.bandcamp.com/album/mania">Mania by Kerr Ring</a></iframe>
+
+### Fiery-bird
+
+The translation wasn't really polished, but should convey enough to understand the song theme...
+<p style="text-align: center;">
+---<br><em>
+A trace of platinum clouds,
+<br>Scarlet sunset and dawn....
+<br>The crimson ceiling shames:
+<br>"You were chained to the ground."
+<br>
+<br>You see unchanging landscape.
+<br>Day after day longing.
+<br>The sun, clouds and thunderstorm
+<br>Can not please the eye.
+<br>
+<br>A strong shutter guards
+<br>The damned secret is calling -
+<br>Dreams and dreams of vastness,
+<br>A flight to the horizon!
+<br>
+<br>Freedom in reality is not given
+<br>Dreams are gifts of shadows.
+<br>And the damned secret is calling -
+<br>Torturer of ancient blood.
+<br>
+<br>You still remember freedom...
+<br>this memory is alive:
+<br>The azure of celestial dome,
+<br>sunshine in your eyes
+<br>Wind sounds
+<br>Like a siren's song
+<br>But to be locked up -
+<br>here is your lot.
+<br>
+<br>Sad firey bird in captivity
+<br>Crosses sparks about cell bars
+<br>Hissing tears saltier than blood
+<br>Wings are tight, soul - a lot more.
+<br>
+<br>Disrupted is the usual way -
+<br>Shackled with comfort and warmth.
+<br>Where to look now for the Garden of Eden?
+<br>Is forever a secret to her.
+<br>
+<br>In an invisible distance flight!
+<br>Tears are a sacrifice to the shadows.
+<br>Though the heart is aflame -
+<br>The rods, alas, do not burn.
+<br>
+<br>Everlasting memory
+<br>To whirls of forests
+<br>and the inviting desire
+<br>Biding in a dream world.
+<br>Wind sounds
+<br>Like a siren's song
+<br>but to be deceived -
+<br>here is your lot.
+<br>
+<br>... to be immobilized
+<br>here is your lot.
+<br></em>
+---<br>
+</p>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1827526910/size=small/bgcol=333333/linkcol=e99708/track=320483923/transparent=true/" seamless><a href="https://kerrring.bandcamp.com/album/mania">Mania by Kerr Ring</a></iframe>
+
+### My inspiration
+The closing song is so hard to translate.. Many metaphors and grammar is just not.. close to English language. 
+The song is describing a dark place in mind from where inspiration is drawn to compose dramatic music. 
+This is a piano ballad, not a traditional metal song. It never quiet transfromed from how Olga composed it on a piano. 
+Notably, it sounds pretty good with only piano part, everything else is just background. The piano arrangement is available as sheet music on [ArrangeMe.com](https://www.arrangeme.com/title/638317). 
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1827526910/size=small/bgcol=333333/linkcol=e99708/track=1432065463/transparent=true/" seamless><a href="https://kerrring.bandcamp.com/album/mania">Mania by Kerr Ring</a></iframe>
 
 ## What's next?
 The band is now in studio mode. Which means, not alive, but not quite dead either. 
