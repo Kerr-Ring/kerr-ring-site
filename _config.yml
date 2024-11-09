@@ -17,7 +17,7 @@
 title: Kerr Ring
 email: kerr.ring.band@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Kerr Ring is an American 6-piece gothic metal band telling dark stories of death and misfortune.
+  Kerr Ring is an American gothic metal band telling dark stories of death and misfortune.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kerr-ring.com/" 
 #url: "http://127.0.0.1:4000/"
@@ -75,8 +75,9 @@ paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
-gems: 
+plugins: 
  - jekyll-paginate
+ - jekull-sitemap
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 #logo 492 106
@@ -112,3 +113,10 @@ sitemap:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  -
+    scope:
+      path:            "img/**/*.jpg"
+    values:
+      sitemap:         false
