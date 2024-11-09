@@ -1,0 +1,115 @@
+---
+layout: page
+title: "Witch Ape Studio, 2019"
+description: "with Thomas Andrew Doyle aka Tad"
+active: gallery
+header-img: "img/gallery-bg.jpg"
+album-title: "Recording at Witch Ape Studio"
+
+images:
+- image_path: /gallery/behindts/witch-ape-2019/IMG_20191214_195123.jpg
+  caption: 
+  copyright: © Kerr Ring
+- image_path: /gallery/behindts/witch-ape-2019/20191214_122245.jpg
+  caption: 
+  copyright: © Kerr Ring
+- image_path: /gallery/behindts/witch-ape-2019/20191214_150313.jpg
+  caption: 
+  copyright: © Kerr Ring
+- image_path: /gallery/behindts/witch-ape-2019/IMG_20191214_180251.jpg
+  caption: in awe from beautiful thunderous sounds
+  copyright: © Kerr Ring
+- image_path: /gallery/behindts/witch-ape-2019/IMG_20191214_180121.jpg
+  caption: 
+  copyright: © Kerr Ring
+- image_path: /gallery/behindts/witch-ape-2019/IMG_20191214_133517.jpg
+  caption: Our drummer Dru did an amazing job <3
+  copyright: © Kerr Ring
+
+- image_path: /gallery/behindts/witch-ape-2019/IMG_20191214_163821.jpg
+  caption: SO happy with the recording! 
+  copyright: © Kerr Ring
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup"  title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary" id="{{ image.caption }}">
+							<h3>{{image.caption}}</h3>
+							<p>{{image.copyright}}</p>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+  <br>
+<!-- jQuery -->    
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+         type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+image: {
+      titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="{{ site.baseurl }}/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+
+    
+</body></html>
