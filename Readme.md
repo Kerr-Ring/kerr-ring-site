@@ -6,7 +6,6 @@ To Do List:
 
 - [ ] Add music to the home page
 - [ ] Setup merch
-- [ ] Enforce https
 - [ ] Add photos from Witch Ape
 - [ ] Sitemap is not generated
  
