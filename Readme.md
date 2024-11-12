@@ -4,9 +4,7 @@ We can use GitHub pages for now, and publish static content.
 
 To Do List:
 
-- [ ] Add music to the home page
 - [ ] Setup merch
-- [ ] Add photos from Witch Ape
 - [ ] Sitemap is not generated
  
 ## To Use
