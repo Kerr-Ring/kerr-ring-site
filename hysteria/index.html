@@ -6,6 +6,10 @@ active: hysteria
 header-img: "img/hysteria-logo.jpg"
 ---
 
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
 <body>
     <div class="container">
         <div class="row">
@@ -34,7 +38,8 @@ header-img: "img/hysteria-logo.jpg"
                 unsettling, uncomfortable and artistic imagery to enhance the conveyance of extreme emotions. Intense
                 lighting will not be safe for those with epilepsy and other conditions with sensititvity to light.
                 <br />
-                Our experienced musicians have been performing in the metal scene in PNW with:</p>
+                Our experienced musicians have been performing in the metal scene in PNW with:
+            </p>
             <ul>
                 <li>Ara'kus</li>
                 <li>Dual Analog</li>
@@ -61,7 +66,92 @@ header-img: "img/hysteria-logo.jpg"
             </div>
             <hr class="medium"><br />
 
-            <p>More details coming soon</p>
+            <div>
+                <h3>The story</h3>
+                Time passed in an indistinguishable wave, as the first witnessed The
+                Breaking of Lena, the awakening of her sisters, and the true glory of The Maze as it took shape around
+                them.<br />
+                The Maze called Lena back in with her every waking thought, her every breath.<br />
+                It glitched as it rose, the infinite possibilities of tile and metal and wood and grass flickering with
+                horrible images between, blackened eyes crying gore and teeth growing out of palms and the pained and
+                choked screaming of someone she must have loved once when she was Lena.<br />
+                Names gave form. Names gave meaning. Names gave expectations. The sisters had none of those.<br />
+
+
+
+            </div><br/>
+            
+	<section id="content" role="main">
+		<div class="wrapper">
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+                {% for story in site.hysteria_stories %}
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ site.url }}{{ site.baseurl }}{{ story.image_path }}" class="popup"  title="{{ story.title }}" data-caption="">
+<img src="{{ site.url }}{{ site.baseurl }}{{ story.image_path }}"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary" id="{{ image.caption }}">
+							<h3>{{story.title}}</h3>
+							<!-- <p>{{image.copyright}}</p> -->
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+  <br>
+            <hr class="medium"><br />
+
         </div>
     </div>
-</body>
+    
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+         type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+image: {
+      titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="{{ site.baseurl }}/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+
+    
+</body></html>
