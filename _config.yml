@@ -65,6 +65,11 @@ translations:
 destination:      	 ./_site
 port:             	 4000
 
+collections:
+  hysteria_stories:
+    output: true
+    permalink: /:collection/:name
+
 
 # Build settings
 markdown: kramdown
