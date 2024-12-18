@@ -7,9 +7,13 @@ header-img: "img/hysteria-logo.jpg"
 ---
 
 <html class="no-js" lang="en">
+
 <head>
-	<meta content="charset=utf-8">
+    <meta content="charset=utf-8">
+    <link rel="stylesheet" href="{{ "/css/hysteria.css" | prepend: site.baseurl }}">
+
 </head>
+
 <body>
     <div class="container">
         <div class="row">
@@ -79,79 +83,91 @@ header-img: "img/hysteria-logo.jpg"
 
 
 
-            </div><br/>
-            
-	<section id="content" role="main">
-		<div class="wrapper">
-			<!-- Gallery __-->
-			<div class="gallery masonry-gallery">
-		
-                {% for story in site.hysteria_stories %}
+            </div><br />
 
-				<figure class="gallery-item">
-					<header class='gallery-icon'>
+            <section id="content" role="main">
+                <div class="wrapper">
+                    <!-- Gallery __-->
+                    <div class="gallery masonry-gallery">
 
-<a href="{{ site.url }}{{ site.baseurl }}{{ story.image_path }}" class="popup"  title="{{ story.title }}" data-caption="">
-<img src="{{ site.url }}{{ site.baseurl }}{{ story.image_path }}"></a>
-						
-					</header>	
-					<figcaption class='gallery-caption'>
-						<div class="entry-summary" id="{{ image.caption }}">
-							<h3>{{story.title}}</h3>
-							<!-- <p>{{image.copyright}}</p> -->
-						</div>
-					</figcaption>
-				</figure>
-				
-{% endfor %}
+                        {% for story in site.hysteria_stories %}
 
-			</div>
+                        <figure class="gallery-item">
+                            <header class='gallery-icon'>
 
-		</div><!-- END .wrapper -->
-	</section>
+                                <a href="#{{story.title}}-story" class="popup" title="{{ story.title }}"
+                                    data-caption="">
+                                    <img src="{{ site.url }}{{ site.baseurl }}{{ story.image_path }}"></a>
 
-  <br>
+                            </header>
+                            <figcaption class='gallery-caption'>
+                                <div class="entry-summary" id="{{ image.caption }}">
+                                    <h3>{{story.title}}</h3>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <div id="{{story.title}}-story" class="mfp-hide">
+                            <h2>{{story.title}}</h2>
+                            <img src="{{ site.url }}{{ site.baseurl }}{{ story.image_path }}" alt="{{story.title}}"
+                                class="mfp-img">
+                            <div class="hysteria-story-text">
+                                {{story.content}}
+                            </div>
+                        </div>
+
+                        {% endfor %}
+
+                    </div>
+
+                </div><!-- END .wrapper -->
+            </section>
+
+            <br>
             <hr class="medium"><br />
 
         </div>
     </div>
-    
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<!-- include image popups -->
-<script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
 
-<script type="text/javascript">
-      $(document).ready(function($) {
-        $('a.popup').magnificPopup({
-         type: 'image',
-	  gallery:{
-         enabled:true,
-         navigateByImgClick: true,
-         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-       },
-image: {
-      titleSrc: function(item) {
-              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
-            }
-        }
-          // other options
-      });
-});
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- include image popups -->
+    <script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function ($) {
+            $('a.popup').magnificPopup({
+                type: 'inline',
+                closeBtnInside: false,
+                midClick: true,
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+                },
+                image: {
+                    titleSrc: function (item) {
+                        return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+                    }
+                }
+                // other options
+            });
+        });
     </script>
 
-<script src="{{ site.baseurl }}/js/retina.min.js"></script>
-<!-- include Masonry -->
-<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
-<!-- include mousewheel plugins -->
-<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
-<!-- include carousel plugins -->
-<script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
-<!-- include svg line drawing plugin -->
-<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
-<!-- include custom script -->
-<script src="{{ site.baseurl }}/js/scripts.js"></script>
-<!-- Modernizr -->
- <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+    <script src="{{ site.baseurl }}/js/retina.min.js"></script>
+    <!-- include Masonry -->
+    <script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
+    <!-- include mousewheel plugins -->
+    <script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+    <!-- include carousel plugins -->
+    <script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+    <!-- include svg line drawing plugin -->
+    <script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+    <!-- include custom script -->
+    <script src="{{ site.baseurl }}/js/scripts.js"></script>
+    <!-- Modernizr -->
+    <script src="{{ site.baseurl }}/js/modernizr.js"></script>
 
-    
-</body></html>
+
+</body>
+
+</html>
