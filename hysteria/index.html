@@ -10,16 +10,46 @@ header-img: "img/hysteria-logo.jpg"
 
 <head>
     <meta content="charset=utf-8">
-    <link rel="stylesheet" href="{{ "/css/hysteria.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ " /css/hysteria.css" | prepend: site.baseurl }}">
+    <style>
+        .container {
+            display: flex;
+        }
 
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .column-left {
+            flex: 0 0 30%;
+            padding: 10px;
+        }
+
+        .column-right {
+            flex: 0 0 70%;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
+    <div>
+        <h2>{{page.title}}</h2>
+    </div>
     <div class="container">
-        <div class="row">
-            <h2>{{page.title}}</h2>
+        <div class="row column column-left">
+            <img src="{{ site.url }}{{ site.baseurl }}\hysteria\images\show-poster-hysteria-2025.png" class="mfp-img" />
+        </div>
+        <div class="row column column-right">
+
             <span class="subheading"><br /></span>
-            <p>{{ page.description }} <br /><i> The Central Saloon, February 15 2025. Follow on socials </i>
+            <p>{{ page.description }} <br /> <br />
+                <a
+                    href="https://www.venuepilot.co/events/deathmetalmama-presents-hysteria-ft-inpathos-holz-omenfog-2025-02-15-central-saloon-seattle-2b172a/orders/new">BUY
+                    TICKETS => </a>
+                <i> The Central Saloon, February 15 2025. </i><br />
+                Follow on socials </i>
                 <a href="https://instagram.com/hysteria.seattle" data-toggle="tooltip" title="HYSTERIA"
                     data-original-title="HYSTERIA">
                     <span class="fa-stack fa-lg">
@@ -36,101 +66,108 @@ header-img: "img/hysteria-logo.jpg"
                 </a>
             </p>
             <br />
-            <h3>What to expect?</h3>
-            <p>
-
-                Hysteria is a journey of the emotions from despair to rage told through a story of a woman losing her
-                grasp of reality.<br />
-                The show is accompanied by a live performance of atmospheric blackened gothic doom metal music, and will
-                please fans of such icons as Cult of Luna, Swallow the Sun, Enslaved, and Lacuna Coil. <br />
-                This 21+ show is touching delicate themes of pain, death and mental disturbance, emphasized with
-                unsettling, uncomfortable and artistic imagery to enhance the conveyance of extreme emotions. Intense
-                lighting will not be safe for those with epilepsy and other conditions with sensititvity to light.
-                <br />
-                Our experienced musicians have been performing in the metal scene in PNW with:
-            </p>
-            <ul>
-                <li>Ara'kus</li>
-                <li>Dual Analog</li>
-                <li>Kerr Ring</li>
-                <li>No Living Witness</li>
-                <li>Random Rockers</li>
-                <li>Shards of Narsil</li>
-                <li>Vesuvian</li>
-
-            </ul>
-
-
-            </p>
-            <hr class="medium"><br />
-
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
-                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2003489619%3Fsecret_token%3Ds-gXKCtSo3h3y&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-            <div
-                style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-                <a href="https://soundcloud.com/olga-nuit" title="Olga Nuit" target="_blank"
-                    style="color: #cccccc; text-decoration: none;">Olga Nuit</a> · <a
-                    href="https://soundcloud.com/olga-nuit/hysteria-demo/s-gXKCtSo3h3y" title="Hysteria Demo"
-                    target="_blank" style="color: #cccccc; text-decoration: none;">Hysteria Demo</a>
-            </div>
-            <hr class="medium"><br />
-
-            <div>
-                <h3>The story</h3>
-                Time passed in an indistinguishable wave, as the first witnessed The
-                Breaking of Lena, the awakening of her sisters, and the true glory of The Maze as it took shape around
-                them.<br />
-                The Maze called Lena back in with her every waking thought, her every breath.<br />
-                It glitched as it rose, the infinite possibilities of tile and metal and wood and grass flickering with
-                horrible images between, blackened eyes crying gore and teeth growing out of palms and the pained and
-                choked screaming of someone she must have loved once when she was Lena.<br />
-                Names gave form. Names gave meaning. Names gave expectations. The sisters had none of those.<br />
-
-
-
-            </div><br />
-
-            <section id="content" role="main">
-                <div class="wrapper">
-                    <!-- Gallery __-->
-                    <div class="gallery masonry-gallery">
-
-                        {% for story in site.hysteria_stories %}
-
-                        <figure class="gallery-item">
-                            <header class='gallery-icon'>
-
-                                <a href="#{{story.title}}-story" class="popup" title="{{ story.title }}"
-                                    data-caption="">
-                                    <img src="{{ site.url }}{{ site.baseurl }}{{ story.image_path }}"></a>
-
-                            </header>
-                            <figcaption class='gallery-caption'>
-                                <div class="entry-summary" id="{{ image.caption }}">
-                                    <h3>{{story.title}}</h3>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <div id="{{story.title}}-story" class="mfp-hide">
-                            <h2>{{story.title}}</h2>
-                            <img src="{{ site.url }}{{ site.baseurl }}{{ story.image_path }}" alt="{{story.title}}"
-                                class="mfp-img">
-                            <div class="hysteria-story-text">
-                                {{story.content}}
-                            </div>
-                        </div>
-
-                        {% endfor %}
-
-                    </div>
-
-                </div><!-- END .wrapper -->
-            </section>
-
-            <br>
-            <hr class="medium"><br />
-
         </div>
+
+    </div>
+    <div>
+        <h3>What to expect?</h3>
+        <p>
+
+            Hysteria is a journey of the emotions from despair to rage told through a story of a woman losing
+            her
+            grasp of reality.<br />
+            The show is accompanied by a live performance of atmospheric blackened gothic doom metal music, and
+            will
+            please fans of such icons as Cult of Luna, Swallow the Sun, Enslaved, and Lacuna Coil. <br />
+            This 21+ show is touching delicate themes of pain, death and mental disturbance, emphasized with
+            unsettling, uncomfortable and artistic imagery to enhance the conveyance of extreme emotions.
+            Intense
+            lighting will not be safe for those with epilepsy and other conditions with sensititvity to light.
+            <br />
+            Our experienced musicians have been performing in the metal scene in PNW with:
+        </p>
+        <ul>
+            <li>Ara'kus</li>
+            <li>Dual Analog</li>
+            <li>Kerr Ring</li>
+            <li>No Living Witness</li>
+            <li>Random Rockers</li>
+            <li>Shards of Narsil</li>
+            <li>Vesuvian</li>
+
+        </ul>
+
+
+        </p>
+        <hr class="medium"><br />
+
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2003489619%3Fsecret_token%3Ds-gXKCtSo3h3y&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <div
+            style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+            <a href="https://soundcloud.com/olga-nuit" title="Olga Nuit" target="_blank"
+                style="color: #cccccc; text-decoration: none;">Olga Nuit</a> · <a
+                href="https://soundcloud.com/olga-nuit/hysteria-demo/s-gXKCtSo3h3y" title="Hysteria Demo"
+                target="_blank" style="color: #cccccc; text-decoration: none;">Hysteria Demo</a>
+        </div>
+    </div>
+    <hr class="medium"><br />
+
+    <div>
+        <h3>The story</h3>
+        Time passed in an indistinguishable wave, as the first witnessed The
+        Breaking of Lena, the awakening of her sisters, and the true glory of The Maze as it took shape around
+        them.<br />
+        The Maze called Lena back in with her every waking thought, her every breath.<br />
+        It glitched as it rose, the infinite possibilities of tile and metal and wood and grass flickering with
+        horrible images between, blackened eyes crying gore and teeth growing out of palms and the pained and
+        choked screaming of someone she must have loved once when she was Lena.<br />
+        Names gave form. Names gave meaning. Names gave expectations. The sisters had none of those.<br />
+
+
+
+    </div><br />
+
+    <section id="content" role="main">
+        <div class="wrapper">
+            <!-- Gallery __-->
+            <div class="gallery masonry-gallery">
+
+                {% for story in site.hysteria_stories %}
+
+                <figure class="gallery-item">
+                    <header class='gallery-icon'>
+
+                        <a href="#{{story.title}}-story" class="popup" title="{{ story.title }}" data-caption="">
+                            <img src="{{ site.url }}{{ site.baseurl }}{{ story.image_path }}"></a>
+
+                    </header>
+                    <figcaption class='gallery-caption'>
+                        <div class="entry-summary" id="{{ image.caption }}">
+                            <h3>{{story.title}}</h3>
+                        </div>
+                    </figcaption>
+                </figure>
+                <div id="{{story.title}}-story" class="mfp-hide">
+                    <h2>{{story.title}}</h2>
+                    <img src="{{ site.url }}{{ site.baseurl }}{{ story.image_path }}" alt="{{story.title}}"
+                        class="mfp-img">
+                    <div class="hysteria-story-text">
+                        {{story.content}}
+                    </div>
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div><!-- END .wrapper -->
+    </section>
+
+    <br>
+    <hr class="medium"><br />
+
+    </div>
     </div>
 
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

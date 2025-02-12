@@ -55,6 +55,7 @@ nav:
   - SHOWS: "/shows/"  
   - NEWS: "/journal/"
   - ABOUT: "/about/"
+  - HYSTERIA_LYRICS: "/hysteria/lyrics/"
 
 # All translation keys
 translations:
